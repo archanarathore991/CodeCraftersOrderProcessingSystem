@@ -1,0 +1,184 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Overall page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background-image7.avif'); 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.09); 
+}
+
+/* Header styles */
+h1 {
+    font-size: 38px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Employee info styles */
+.employee-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.02);
+    text-align: center;
+}
+
+.employee-info h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.employee-info p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Orders table styles */
+.orders-table {
+    background-color: #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+
+.orders-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.orders-table th, .orders-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.orders-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Alternate row colors in shades of yellow */
+.orders-table tbody tr:nth-child(even) {
+    background-color: #c1e3f0; /* Light yellow */
+}
+
+.orders-table tbody tr:nth-child(odd) {
+    background-color: #90d6f2; /* Darker yellow */
+}
+
+/* Links styles */
+.links {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.links a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+}
+
+/* Invoice Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #333;
+}
+
+
+/* Centered title styles */
+.center-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.center-title h1 {
+    font-size: 38px; /* Slightly bigger font */
+    padding: 30px;
+}
+
+
+
+/* Centered and aligned buttons styles */
+.center-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+/* Blue button styles */
+.blue-button {
+    background-color: #1d1f22;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 10px; 
+    transition: background-color 0.3s ease;
+}
+
+.blue-button:hover {
+    background-color: #313138;
+}
+
+/* Set text color to white */
+.links a {
+    color: #fff;
+}
+
