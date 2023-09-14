@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Management</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="center-title">
+            <h1>Order Management Page</h1>
+        </div>
+
+        <!-- Employee Information -->
+        <div class="employee-info">
+            <h2>Employee Information</h2>
+            <p>Employee ID: <span id="employeeId">12345</span></p>
+            <p>Last Logged-in: <span id="lastLoggedIn">2023-09-10 14:30:00</span></p>
+        </div>
+
+        <!-- List of Orders -->
+        <div class="orders-table">
+            <h2>List of Orders</h2><br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer Name</th>
+                        <th>Order Date</th>
+                        <th>Order Value</th>
+                        <th>Customer City</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="orderList">
+                    
+                </tbody>
+            </table>
+        </div>
+
+       
+
+        <!-- Create New Quote and Import Products Links -->
+<div class="links">
+    <a href="/create-quote" class="blue-button">Create New Quote</a>
+    <a href="/import-products" class="blue-button">Import Products</a>
+</div>
+
+        <!-- Invoice Modal -->
+        <div id="invoiceModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeInvoiceModal()">&times;</span>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
